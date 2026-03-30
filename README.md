@@ -1,16 +1,18 @@
-# React + Vite
+# 🛠️ DigiTools-Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### 📝 Description
+**DigiTools-Platform** is a modern, high-performance e-commerce web application specifically designed for purchasing digital tools and software subscriptions. The platform offers a seamless browsing experience where users can explore various professional tools, view detailed features, and manage their purchases through an interactive shopping cart. Built with a focus on speed and user experience, it ensures a smooth journey from product discovery to checkout.
 
-Currently, two official plugins are available:
+### 🚀 3 Key Features
+***Dynamic Product Catalog:** Seamlessly displays 6–10 curated digital products fetched from a local JSON data source, featuring dynamic tags like Popular, New, or "Best Seller.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+***Smart Cart Management:** Includes a real-time toggling system between the product gallery and the shopping cart, allowing users to add, remove, and track their selected items with a live counter in the navbar.
 
-## React Compiler
+***Instant Interactive Feedback:** Integrated with `React-Toastify` to provide professional, real-time notifications for every user action, such as adding products to the cart, removing items, or completing a checkout.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 🛠️ Technologies Used
+***React.js** – For building a dynamic and efficient user interface.
+***Tailwind CSS & DaisyUI** – For crafting a modern, clean, and fully responsive design.
+***JavaScript (ES6+)** – To handle complex logic, state management, and data fetching.
+***React-Toastify** – For elegant, non-intrusive alert notifications.
+***JSON** – Used as a lightweight data source for product information.
