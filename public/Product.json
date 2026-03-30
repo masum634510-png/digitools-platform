@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "name": "Design Pro Max",
+    "description": "Professional UI/UX design tool with advanced collaboration features.",
+    "price": 29.99,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": ["100+ templates", "Cloud storage", "Export to Figma"],
+    "icon": "https://i.ibb.co.com/8L8S8S8/design.png"
+  },
+  {
+    "id": 2,
+    "name": "CodeMaster AI",
+    "description": "AI-powered coding assistant for faster development workflows.",
+    "price": 15.00,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "features": ["Auto-completion", "Bug detection", "Multi-language"],
+    "icon": "https://i.ibb.co.com/9M9M9M9/code.png"
+  },
+  {
+    "id": 3,
+    "name": "SEO Analyzer",
+    "description": "Rank your website higher with our deep analysis tools.",
+    "price": 199.00,
+    "period": "one-time",
+    "tag": "Best Seller",
+    "tagType": "best seller",
+    "features": ["Keyword research", "Backlink checker", "Weekly reports"],
+    "icon": "https://i.ibb.co.com/7N7N7N7/seo.png"
+  },
+  {
+    "id": 4,
+    "name": "Video Edit X",
+    "description": "Cloud-based video editing for content creators.",
+    "price": 49.99,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": ["4K rendering", "Stock footage", "Music library"],
+    "icon": "https://i.ibb.co.com/6P6P6P6/video.png"
+  },
+  {
+    "id": 5,
+    "name": "Security Guard",
+    "description": "Advanced firewall and malware protection for your apps.",
+    "price": 99.00,
+    "period": "yearly",
+    "tag": "Top Rated",
+    "tagType": "popular",
+    "features": ["24/7 Monitoring", "DDoS protection", "Auto backups"],
+    "icon": "https://i.ibb.co.com/5Q5Q5Q5/security.png"
+  },
+  {
+    "id": 6,
+    "name": "Task Flow",
+    "description": "Project management tool for agile development teams.",
+    "price": 10.00,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "features": ["Kanban boards", "Time tracking", "Slack integration"],
+    "icon": "https://i.ibb.co.com/4R4R4R4/task.png"
+  }
+]
