@@ -32,6 +32,7 @@ const Navbar = () => {
             </div>
             <div className="navbar-end flex gap-3">
                 <img src={cartImg} alt="" />
+               
                 <p className='font-semibold hidden sm:block'>Login</p>
                 <button className="btn btn-primary rounded-3xl btn-sm">Get Started</button>
 

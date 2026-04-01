@@ -15,6 +15,8 @@ import { useEffect, useState } from 'react'
 
 function App() {
 
+  
+
       const [products, setProducts] = useState([]);
 
       useEffect(() => {
@@ -26,6 +28,8 @@ function App() {
   return (
     <>
 
+      
+        
       <Navbar></Navbar>
       <Banner></Banner>
       <StatsSection></StatsSection>
