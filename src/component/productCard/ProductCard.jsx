@@ -1,12 +1,13 @@
 import React from "react";
 import productPng1 from '../../assets/products/1.png'
 
+
 const ProductCard = ({ product }) => {
   return (
     <div className="card w-full shadow-2xl  ">
       <div className="card-body  relative">
         <img src={productPng1} alt="" className="w-10 h-10" />
-        <span className="badge badge-xs badge-warning absolute top-4 right-9">{product.tagType}</span>
+        <span className={`badge badge-xs badge-warning absolute top-4 right-9 ${product.tagType === 'popular' ? 'bg-yellow-300' : product.tagType === 'new' ? 'bg-green-300': product.tagType === 'Best Seller' ? 'bg-red-400' : 'bg-blue-300'}`}>{product.tagType}</span>
         <div className="flex justify-between">
           <h2 className="text-3xl font-bold">{product.name}</h2>
 
