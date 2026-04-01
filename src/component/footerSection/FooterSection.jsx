@@ -6,37 +6,37 @@ import twitterPng from "../../assets/Twitter.png";
 const FooterSection = () => {
     return (
         <section className=" bg-[#101727]">
-            <footer className="footer grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5  text-white  w-10/12 mx-auto py-8 mb-8">
-                <aside>
-                    <h2 className="text-3xl font-bold text-center md:text-left">DigiTools</h2>
+            <footer className="footer grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 justify-items-center text-center gap-y-10 text-white  w-10/12 mx-auto py-8 mb-8">
+                <aside className="flex flex-col text-center items-center lg:text-left">
+                    <h2 className="text-3xl font-bold">DigiTools</h2>
                     <p className="text-[#9f9999]">
                         Premium digital tools for creators, <br></br> professionals, and
                         businesses. Work smarter <br></br> with our suite of powerful tools.
                     </p>
                 </aside>
 
-                <nav>
+                <nav className="flex flex-col items-center lg:items-start" >
                     <h6 className="footer-title text-white">Product</h6>
                     <a className="link link-hover text-[#9f9999]">Features</a>
                     <a className="link link-hover text-[#9f9999]">Pricing</a>
                     <a className="link link-hover text-[#9f9999]">Templates</a>
                     <a className="link link-hover text-[#9f9999]">Integrations</a>
                 </nav>
-                <nav>
+                <nav className="flex flex-col items-center lg:items-start">
                     <h6 className="footer-title">Company</h6>
                     <a className="link link-hover text-[#9f9999]">About</a>
                     <a className="link link-hover text-[#9f9999]">Blog</a>
                     <a className="link link-hover text-[#9f9999]">Careers</a>
                     <a className="link link-hover text-[#9f9999]">Press</a>
                 </nav>
-                <nav>
+                <nav className="flex flex-col items-center lg:items-start">
                     <h6 className="footer-title">Resources</h6>
                     <a className="link link-hover text-[#9f9999]">Documentation</a>
                     <a className="link link-hover text-[#9f9999]">Help Center</a>
                     <a className="link link-hover text-[#9f9999]">Community</a>
                     <a className="link link-hover text-[#9f9999]">Contact</a>
                 </nav>
-                <div>
+                <div className="flex flex-col items-center lg:items-start">
                     <h6 className="text-[16px]">Social Link</h6>
                     <div className="flex gap-2">
                         <img src={instragramPng} alt="" />
@@ -49,7 +49,7 @@ const FooterSection = () => {
                 <div>
                     <hr className="border dorder-white" />
                 </div>
-                <div className="flex justify-between py-5">
+                <div className="flex flex-col md:flex-row text-center items-center justify-between py-5">
                     <div>
                         <p>© 2026 Digitools. All rights reserved.</p>
                     </div>

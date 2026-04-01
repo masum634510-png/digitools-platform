@@ -6,7 +6,7 @@ const Banner = () => {
     <div className="banner-section w-10/12 mx-auto grid justify-between items-center gap-6 my-8 grid-cols-1 lg:grid-cols-2">
       <div className="left w-full flex flex-col justify-center lg:text-left space-y-4">
         <div>
-          <img src="" alt="" />
+          <img src={null} alt="" />
           <button className="btn btn-soft btn-primary rounded-3xl pointer-events-none">New: AI-Powered Tools Available</button>
 
         </div>
@@ -19,7 +19,7 @@ const Banner = () => {
         <div className="flex gap-2">
              <button className="btn btn-primary rounded-3xl btn-sm">Explore Products</button>
              <div>
-                <img src="" alt="" />
+                <img src={null} alt="" />
                 <button className="btn btn-outline btn-sm btn-primary">Watch Demo</button>
 
              </div>

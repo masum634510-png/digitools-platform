@@ -2,8 +2,8 @@ import React from 'react';
 
 const PricingSection = () => {
     return (
-        <section className='mb-10 w-10/12 mx-auto'>
-            <div className='text-center py-8'>
+        <section className='mb-20 w-10/12 mx-auto'>
+            <div className='text-center py-8 '>
                 <h2 className='text-3xl md:text-5xl font-bold'>Simple, Transparent Pricing</h2>
                 <p className='text-gray-500 pt-4'>Choose the plan that fits your needs. Upgrade or downgrade anytime.</p>
             </div>
@@ -41,12 +41,12 @@ const PricingSection = () => {
                     </div>
                 </div>
 
-                <div className="card text-white bg-[linear-gradient(87.40deg,rgba(79,57,246,1),rgba(149,20,250,1))] shadow-sm">
+                <div className="card relative text-white bg-[linear-gradient(87.40deg,rgba(79,57,246,1),rgba(149,20,250,1))] shadow-sm">
                     <div className="card-body">
                         <div className=" ">
                             <h2 className="text-3xl font-bold">Pro</h2>
                             <p className='text-gray-200 pt-2'>Best for professionals</p>
-
+                              <span className='absolute -top-4 right-30 py-1 px-2 font-semibold rounded-3xl border-none bg-amber-100 text-[#BB4D00] border'>Most Popular</span>
                         </div>
                         <p className='pt-3'><span className='text-3xl font-bold'>$29</span>/month</p>
                         <ul className="mt-6 flex flex-col gap-2 text-xs">
