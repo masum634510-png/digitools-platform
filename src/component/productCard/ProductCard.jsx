@@ -1,12 +1,18 @@
-import React from "react";
-import productPng1 from '../../assets/products/1.png'
+import React from "react"
+import img1 from '../../assets/products/1.png'
+import img2 from '../../assets/products/2.png'
+import img3 from '../../assets/products/3.png'
+import img4 from '../../assets/products/4.png'
+import img5 from '../../assets/products/5.png'
+import img6 from '../../assets/products/6.png'
 
+const images = {1: img1, 2: img2, 3: img3, 4: img4, 5: img5, 6: img6}
 
 const ProductCard = ({ product }) => {
   return (
     <div className="card w-full shadow-2xl  ">
       <div className="card-body  relative">
-        <img src={productPng1} alt="" className="w-10 h-10" />
+        <img src={images[product.id]} className="w-10 h-10" />
         <span className={`badge badge-xs badge-warning absolute top-4 right-9 ${product.tagType === 'popular' ? 'bg-yellow-300' : product.tagType === 'new' ? 'bg-green-300': product.tagType === 'Best Seller' ? 'bg-red-400' : 'bg-blue-300'}`}>{product.tagType}</span>
         <div className="flex justify-between">
           <h2 className="text-3xl font-bold">{product.name}</h2>

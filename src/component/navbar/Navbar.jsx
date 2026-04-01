@@ -1,5 +1,5 @@
 import React from 'react';
-import cartImg from '../../assets/products/shopping-cart.png'
+import cartImg from '../../assets/products/7.png'
 
 const Navbar = () => {
     return (
