@@ -27,9 +27,6 @@ function App() {
       
   return (
     <>
-
-      
-        
       <Navbar></Navbar>
       <Banner></Banner>
       <StatsSection></StatsSection>
