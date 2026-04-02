@@ -8,7 +8,7 @@ import img6 from '../../assets/products/6.png'
 
 const images = {1: img1, 2: img2, 3: img3, 4: img4, 5: img5, 6: img6}
 
-const ProductCard = ({ product }) => {
+const ProductCard = ({ product, handleAddToCart }) => {
   return (
     <div className="card w-full shadow-2xl  ">
       <div className="card-body  relative">
@@ -34,7 +34,7 @@ const ProductCard = ({ product }) => {
           }
         </ul>
         <div className="mt-6">
-          <button className="btn btn-primary btn-block rounded-3xl">Buy Now</button>
+          <button onClick={() => handleAddToCart(product)} className="btn btn-primary btn-block rounded-3xl">Buy Now</button>
         </div>
       </div>
     </div>
